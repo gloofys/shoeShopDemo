@@ -4,3 +4,15 @@
 .all {
     background: linear-gradient(blue, crimson) !important;
 }
+/* Target the specific radio button with the class 'white-option' */
+.white-option input[type="radio"]:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;  /* Make the checkmark black */
+}

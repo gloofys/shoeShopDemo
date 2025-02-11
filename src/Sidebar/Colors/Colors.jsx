@@ -41,7 +41,7 @@ const Colors = ({handleChange}) => {
                 color="green"
             />
 
-            <label className="sidebar-label-container">
+            <label className="sidebar-label-container white-option">
                 <input
                     onChange={handleChange}
                     type="radio"
